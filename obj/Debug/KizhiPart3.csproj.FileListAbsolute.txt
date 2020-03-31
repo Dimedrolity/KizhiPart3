@@ -1,0 +1,10 @@
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\bin\Debug\KizhiPart3.exe
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\bin\Debug\KizhiPart3.pdb
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\bin\Debug\nunit.framework.dll
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\bin\Debug\nunit.framework.pdb
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\bin\Debug\nunit.framework.xml
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\obj\Debug\KizhiPart3.csprojAssemblyReference.cache
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\obj\Debug\KizhiPart3.csproj.CoreCompileInputs.cache
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\obj\Debug\KizhiPart3.csproj.CopyComplete
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\obj\Debug\KizhiPart3.exe
+D:\Учёба\Тестовые на стажировку C# Контур\Кижи\KizhiPart3\obj\Debug\KizhiPart3.pdb
