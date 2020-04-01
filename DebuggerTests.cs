@@ -54,7 +54,7 @@ namespace KizhiPart3
             TestDebugger(new[]
                 {
                     "set code",
-    
+
                     "set a 10\n" +
                     "print a\n" +
                     "print a\n" +
