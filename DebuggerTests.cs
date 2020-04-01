@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using NUnit.Framework;
 
 namespace KizhiPart3
@@ -29,7 +30,7 @@ namespace KizhiPart3
         }
 
         [Test]
-        public void SeveralCommands()
+        public void SeveralCommandsAndRun()
         {
             TestDebugger(new[]
             {
@@ -45,6 +46,25 @@ namespace KizhiPart3
                 "end code",
                 "run"
             }, new[] {"10", "10", "6"});
+        }
+
+        [Test]
+        public void SeveralCommandsAndSteps()
+        {
+            TestDebugger(new[]
+                {
+                    "set code",
+
+                    "set a 10\n" +
+                    "print a\n" +
+                    "print a\n" +
+                    "sub a 4\n" +
+                    "print a\n" +
+                    "rem a",
+
+                    "end code",
+                }.Concat(Enumerable.Repeat("step", 6)).ToArray(),
+                new[] {"10", "10", "6"});
         }
 
         [Test]
@@ -439,6 +459,18 @@ namespace KizhiPart3
             }, new[] {"3 test", "5 test", "4"});
         }
 
+        [Test]
+        public void NullCommand()
+        {
+            TestDebugger(new[]
+            {
+                "set code",
+
+                null,
+
+                "end code",
+            }, new string[0]);
+        }
 
         //WORKS
         // [Test]
